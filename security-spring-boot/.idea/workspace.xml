@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9f78fa2f-1660-4247-825e-b4ac5e077d38" name="Default Changelist" comment="" />
+    <list default="true" id="9f78fa2f-1660-4247-825e-b4ac5e077d38" name="Default Changelist" comment="钩子测试15">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itheima/security/springboot/config/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itheima/security/springboot/config/WebSecurityConfig.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,7 +29,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/itheima/security/springboot/config/WebSecurityConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
+            <state relative-caret-position="225">
               <caret line="48" column="4" selection-start-line="48" selection-start-column="4" selection-end-line="48" selection-end-column="4" />
             </state>
           </provider>
@@ -361,7 +363,7 @@
       <workItem from="1598406145862" duration="3417000" />
       <workItem from="1598426589636" duration="14279000" />
       <workItem from="1598807610127" duration="2074000" />
-      <workItem from="1598844363375" duration="3114000" />
+      <workItem from="1598844363375" duration="3560000" />
     </task>
     <task id="LOCAL-00001" summary="commit code">
       <created>1598427996148</created>
@@ -468,7 +470,21 @@
       <option name="project" value="LOCAL" />
       <updated>1598854583269</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="钩子测试14">
+      <created>1598854727564</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1598854727564</updated>
+    </task>
+    <task id="LOCAL-00017" summary="钩子测试15">
+      <created>1598854905273</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1598854905273</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -480,7 +496,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59983000" />
+    <option name="totallyTimeSpent" value="60429000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1293" height="773" extended-state="6" />
@@ -539,7 +555,9 @@
     <MESSAGE value="钩子测试11" />
     <MESSAGE value="钩子测试12" />
     <MESSAGE value="钩子测试13" />
-    <option name="LAST_COMMIT_MESSAGE" value="钩子测试13" />
+    <MESSAGE value="钩子测试14" />
+    <MESSAGE value="钩子测试15" />
+    <option name="LAST_COMMIT_MESSAGE" value="钩子测试15" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/security/spring-security-config/5.1.4.RELEASE/spring-security-config-5.1.4.RELEASE.jar!/org/springframework/security/config/annotation/web/configurers/AbstractInterceptUrlConfigurer.class">
@@ -745,7 +763,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/itheima/security/springboot/config/WebSecurityConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
+        <state relative-caret-position="225">
           <caret line="48" column="4" selection-start-line="48" selection-start-column="4" selection-end-line="48" selection-end-column="4" />
         </state>
       </provider>
