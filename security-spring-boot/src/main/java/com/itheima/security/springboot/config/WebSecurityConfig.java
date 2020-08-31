@@ -45,8 +45,6 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 //        manager.createUser(User.withUsername("lisi").password("456").authorities("p2").build());
 //        return manager;
 //    }
-
-
     
 
     //密码编码器
