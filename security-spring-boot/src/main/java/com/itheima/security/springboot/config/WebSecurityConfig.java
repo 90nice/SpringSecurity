@@ -47,7 +47,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 //    }
 
 
-    
+
     //密码编码器
 //    @Bean
 //    public PasswordEncoder passwordEncoder(){
