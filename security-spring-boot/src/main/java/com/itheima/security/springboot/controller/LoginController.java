@@ -41,6 +41,10 @@ public class LoginController {
         return getUsername()+" 访问资源2";
     }
 
+    @GetMapping(value = "/a1",produces = {"text/plain;charset=UTF-8"})
+    public String a1(){
+        return getUsername()+" 部署测试";
+    }
 
 //    获取当前用户信息
     public String getUsername(){

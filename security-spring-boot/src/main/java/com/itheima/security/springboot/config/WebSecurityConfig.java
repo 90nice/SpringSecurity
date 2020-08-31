@@ -52,6 +52,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 //    public PasswordEncoder passwordEncoder(){
 //        return NoOpPasswordEncoder.getInstance();
 //    }
+
     @Bean
     public PasswordEncoder passwordEncoder() {
         return new BCryptPasswordEncoder();
@@ -68,7 +69,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
                 .anyRequest().permitAll()//除了/r/**，其它的请求可以访问
                 .and()
                 .formLogin()//允许表单登录
-                .loginPage("/login-view")//登录页面
+//                .loginPage("/login-view")//登录页面
                 .loginProcessingUrl("/login")
                 .successForwardUrl("/login-success")//自定义登录成功的页面地址
                 .failureHandler(new AuthenticationFailureHandler() {
