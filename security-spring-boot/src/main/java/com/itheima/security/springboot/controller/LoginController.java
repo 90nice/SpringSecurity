@@ -43,7 +43,7 @@ public class LoginController {
 
     @GetMapping(value = "/a1",produces = {"text/plain;charset=UTF-8"})
     public String a1(){
-        return " 部署测试3";
+        return " 部署测试4";
     }
 
 //    获取当前用户信息
